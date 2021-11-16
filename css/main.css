@@ -62,7 +62,7 @@ nav.navbar .navbar-collapse ul {
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 30px;
+	padding: 0px;
 }
 nav.navbar .navbar-collapse ul li a {
     font-family: roboto-b;
