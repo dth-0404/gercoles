@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:type" content="website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta name="robots" content="noodp,noydir">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="google-site-verification" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="Gercoles">
+    <meta property="og:url" content="">
+    <meta name="description" content="Gercoles">
+    <meta property="og:description" content="Gercoles">
+    <meta property="og:title" content="Gercoles">
+    <title>Gercoles</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <div class="container-fluid"> -->
+    <a class="navbar-brand" href="./index.html">
+        <img src="./images/logo.png" alt="" />
+    </a>
+    <div class="d-flex align-items-center">
+        <div class="dropdown dropdown-mobile">
+            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-expanded="false">
+                <img src="./images/vn.png" alt="" />
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                    <a class="dropdown-item" href="#">
+                        <img src="./images/vn.png" alt="" />
+                        <span>Tiếng Việt</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">
+                        <img src="./images/germany.svg" alt="" />
+                        <span>Tiếng Đức</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <button id="default" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa fa-bars text-dark"></i>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">TRANG CHỦ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="./gioithieu.html">GIỚI THIỆU</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./cauhoi.html">CÂU HỎI THƯỜNG GẶP</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./blog.html">KIẾN THỨC SỨC KHỎE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./lienhe.html">LIÊN HỆ</a>
+            </li>
+            <a href="" type="button" id="dathang-1" class="dathang" data-toggle="modal"
+                data-target="#exampleModal">ĐĂNG KÝ NHẬN KÝ MÃI</a>
+            <li>
+                <a href="" id="dathang-2" data-toggle="modal" data-target="#exampleModal">ĐĂNG KÝ NHẬN KÝ MÃI</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-expanded="false">
+                    <img src="./images/vn.png" alt="" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <img src="./images/vn.png" alt="" />
+                            <span>Tiếng Việt</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <img src="./images/germany.svg" alt="" />
+                            <span>Tiếng Đức</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <button id="shown" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa fa-times text-white"></i>
+        </button>
+    </div>
+    <!-- </div> -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog section-7">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        Đặt hàng chính hãng
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div id="forms" class="form modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h6>#Giảm giá 50%</h6>
+                    <div class="sale row">
+                        <div class="left">
+                            <p>1.180.000 đ</p>
+                            <p>Giá chỉ còn</p>
+                        </div>
+                        <div class="right">
+                            <p>590.000 đ</p>
+                        </div>
+                    </div>
+                    <form action="">
+                        <input type="text" name="name" placeholder="*Tên của bạn" />
+                        <input type="text" name="phone" placeholder="*Số điện thoại" onkeypress="validate(event)" />
+                        <button type="submit">Đặt hàng</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End modal -->
+</nav>
+
+<div class="section-gt section-gt-bg">
+        <div class="row">
+            <div class="col-lg-7 col-md-12 pd-l">
+                <div class="title">TẠI SAO NÊN DÙNG GERCOLES GOLD</div>
+               <div class="section-gt-content">
+                <p>Căn bệnh tăng huyết áp nếu không được điều trị và kiểm soát tốt sẽ dẫn đến biến chứng ở các cơ quan khác như tình trạng tai biến mạch não, nhồi máu cơ tim, đột quỵ, phình tách thành động mạch chủ, suy tim, suy thận ... thậm chí đe dọa đến tính mạng người bệnh. <br> <br>
+
+                    Gercoles Gold chính là giải pháp tuyệt vời để hỗ trợ giảm các triệu chứng cao huyết áp, giảm lượng cholesterol trong máu, tăng cường sức bền thành mạch và ngăn ngừa nguy cơ xơ vữa động mạch, bảo vệ sức khỏe toàn diện cho người bệnh. 
+                    </p>
+               </div>
+            </div>
+            <div class="col-lg-5 col-md-12 pd-r">
+                <div class="section-gt-img1">
+                    <div class="bg-img">
+                        <div class="img-content">
+                            <img src="./images/expert.png" alt="">
+                            <div class="img-title">
+                                <h6>Đặng Khánh Nam <br> Chuyên viên tư vấn</h6>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 pd-l">
+                <div class="section-gt-img2">
+                    <img src="./images/product-gt.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 pd-r">
+               <div class="section-gt-content text-r">
+                <p>Ngay từ khi ra mắt cho đến nay, sản phẩm đã được nghiên cứu và phát triển dựa trên những thử nghiệm lâm sàng về chất lượng và an toàn cho người sử dụng. <br><br>
+
+                    Với liều sử dụng như sau: mỗi ngày 2 lần, mỗi lần 2 viên sau mỗi bữa ăn, bệnh nhân sẽ cảm nhận được những thay đổi tích cực ở sức khỏe của mình, từ đó có cơ hội tận hưởng cuộc sống tốt hơn.
+                    </p>
+               </div>
+            </div>
+          
+        </div>
+</div>
+<div id="section-5" class="section-5 banner-section5">
+    <div class="row">
+        <div class="col-xl-5 col-lg-5 col-md-12 col-12 section-5-left">
+            <div class="section-5-title"><h4>#Cảm Nhận Từ Khách Hàng
+            </h4></div>
+            <div class="section-5-clip">
+                <iframe class="section-5-video"  src="https://www.youtube.com/embed/KTji1hOICEI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-xl-7 col-lg-7 col-md-12 col-12 section-5-right">  
+                <div class="section-5-content">
+                    <h2>Cách Kiểm Soát Bệnh Đái Tháo Đường Thành Công</h2>
+                    <h6>Chia sẻ của bệnh nhân Nguyễn Minh Kha - TPHCM</h6>
+                    <p>Tôi đã sống cùng căn bệnh tăng huyết áp tận 8 năm, cuộc sống của tôi bị đảo lộn và khó khăn hơn bởi bệnh tình. Nhưng từ khi biết đến và sử dụng Gercoles Gold, tôi mới thật sự kiểm soát được lượng đường huyết và ăn ngon, ngủ sâu hơn. Tôi là minh chứng cho việc nếu tìm đúng sản phẩm và kiên trì sử dụng, bạn sẽ có một sức khỏe tốt và cuộc sống mỹ mãn hơn. <br>
+                        Những ai đang hoang mang vì không biết sử dụng sản phẩm nào để điều hòa huyết áp thì đây chính là giải pháp an toàn nhất dành cho bạn đấy!
+                        </p>
+                </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container-fluid footer-bg">
+       <div class=" footer-content">
+          <div class="row">
+             <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                <div class="info left">
+                 <a href="./index.html"> <img src="./images/logo.png" class="logo-bottom"></a> 
+                   <h5>Được phân phối chính thức bởi</h5>
+                   <h3>CÔNG TY TNHH SOJI LABS</h3>
+                   <h5>Trụ sở: Tầng 10, tòa nhà Phước Thành, 199 Điện Biên Phủ, Phường 15,<br> Quận Bình Thạnh,
+                      Thành phố Hồ Chí Minh, Việt Nam
+                   </h5>
+                   <div class="row info-contact">
+                      <i class="fa fa-envelope"></i>
+                      <h6><a href="mailto:shop@soji.asia">shop@soji.asia</a></h6>
+                      <i class="fa fa-phone"></i>
+                      <h6><a href="tel:+02873070789">028 7307 0789</a></h6>
+                   </div>
+                </div>
+             </div>
+             <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="right row justify-content-between mt-3-md">
+                   <div class="col-lg-12 col-md-12 col-12">
+                      <div class="info-socal">
+                         <h3>Kết nối với GERCOLES</h3>
+                         <div class="social row">
+                            <a href="https://www.facebook.com/sojilabs/" target="_blank">
+                            <img src="./images/facebook.svg">
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC2W5tjk6wJAK2K2EUuvMMSQ" target="_blank">
+                            <img src="./images/youtube.svg">
+                            </a>
+                            <a href="https://www.instagram.com/sojilabs_official/" target="_blank">
+                            <img src="./images/instagram.svg">
+                            </a>
+                            <a href="https://twitter.com/SojiLabs" target="_blank">
+                            <img src="./images/twitter.svg">
+                            </a>
+                            <a href="">
+                            <img src="./images/whatsapp.svg" target="_blank">
+                            </a>
+                         </div>
+                         <p style="padding:10px;padding-left:0;font-style:italic">*Thực phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh.</p>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <p><em>Copyright 2020@Soji Labs</em></p>
+       </div>
+    </div>
+ </footer>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap5.js"></script>
+<script src="./js/aos.js"></script>
+<script src="./js/main.js"></script>
+</body>
+
+</html>

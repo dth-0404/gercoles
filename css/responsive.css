@@ -1,0 +1,1174 @@
+@media only screen and (max-width: 1920) {
+	nav.navbar {
+		padding-right: 178px;
+	}
+}
+@media only screen and (max-width: 1680px) {
+	
+	/* Trang chu */
+	nav.navbar .navbar-collapse ul li a,
+	nav.navbar .navbar-collapse ul .dathang {
+		font-size: 18px;
+	}
+	
+	.section-7 .form h6 {
+		font-size: 45px;
+		padding-bottom: 15px;
+	}
+	.section-7 .form .sale .left p {
+		font-size: 28px;
+	}
+	.section-7 .form .sale .right {
+		padding: 12px 45px;
+	}
+	.section-7 .form .sale .right p {
+		font-size: 32px;
+	}
+	.section-7 .form {
+		padding: 31px;
+	}
+	.section-7 .form form input[name="name"] {
+		margin-top: 40px;
+	}
+	.section-7 .form form input {
+		height: 75px;
+		font-size: 20px;
+	}
+	footer {
+		padding: 70px 100px;
+	}
+	footer .left p {
+		font-size: 18px;
+	}
+	/* Trang chu */
+
+	
+}
+@media only screen and (max-width: 1440px) {
+
+	.title{
+		font-size: 30px;
+	}
+	body{
+		padding-top: 100px;
+	}
+	div.title h3 {
+		font-size: 25px !important;
+	}
+	.text h6 {
+		font-size: 20px !important;
+	}
+	.dropdown .dropdown-item img {
+		width: 30px;
+		height: 30px;
+	}
+	nav.navbar .navbar-collapse ul li a, nav.navbar .navbar-collapse ul .dathang{
+		font-size: 16px;
+	}
+
+	/* Trang chu */
+	nav.navbar {
+		padding: 0 30px;
+		height: 100px;
+	}
+	nav.navbar .navbar-collapse ul .dathang {
+        width: 210px;
+        height: 40px;
+        line-height: 40px;
+	}
+	.section-1 .banner1{
+		background-position: right;
+	}
+	.section-3-item-about{
+		padding: 50px 10px;
+	}
+	.section-4-content{
+		padding: 0 75px;
+	}
+	.section4-img{
+		max-width: 160px;
+		transform: translate(25%,-60%);
+	}
+	.section-5-left{
+		padding-left: 0;
+	}
+	.section-5-right{
+		padding-right: 0;
+	}
+	.section-5-content h2{
+		font-size: 30px;
+	}
+	.section-5-content p{
+		padding-right: 10px;
+	}
+	.section-5-title h4{
+		font-size: 24px;
+		max-width: 400px;
+	}
+	.list-ques {
+		padding: 0;
+	}
+	.section-7 .img {
+		width: 100%;
+		padding-bottom: 97%;
+	}
+	.section-7 .form{
+		width: 110%;
+	}
+	.section-7 .form h6 {
+		font-size: 38px;
+		padding-bottom: 10px;
+	}
+	.section-7 .form .sale .left p {
+		font-size: 26px;
+	}
+	.section-7 .form .sale .right {
+		padding: 8px 40px;
+	}
+	.section-7 .form form input,
+	.section-7 .form form button {
+		height: 70px;
+	}
+	.section-7 .form form input[name="name"] {
+		margin-top: 35px;
+	}
+	.section-7 .form form button {
+		margin-top: 45px;
+		font-size: 22px;
+	}
+	footer {
+		padding: 70px;
+	}
+	/* Trang chu */
+	.pd-r{
+		padding-right: 0;
+	}
+	.pd-l{
+		padding-left: 0;
+	}
+	.section-gt-img1{
+		margin:150px 50px 50px;
+	}
+	.section-gt-img2 img{
+		padding: 0px 50px 0 0;
+	}
+	.text-r{
+		padding-right: 0;
+	}
+	.section-gt-content{
+		line-height: 38px;
+	}
+	.cauhoi-top .title h2 {
+		font-size: 31px;
+	}
+	.ask .answer p,
+	.ask .ask-item p {
+		margin-bottom: 5px;
+	}
+	.cauhoi-top .fact .fact-item {
+		height: 232px;
+	}
+}
+@media only screen and (max-width: 1366px) {
+	.section-2-item1,.section-2-item2,.section-2-item3{
+		height: 500px;
+	}
+	.title,.section-1-content h2,.section-5-content h2{
+		font-size: 28px;
+	}
+	.section-2-item{
+		margin: 20px;
+	}
+	.section-7 .form{
+		padding: 34px;
+		width: 125%;
+	}
+	.section-7 .img{
+		padding-bottom: 105%;
+	}
+	.section-gt-img1{
+		margin: 150px 30px 50px;
+	}
+	
+}
+@media only screen and (max-width: 1280px) {
+	body{
+		padding-top: 90px;
+	}
+	h6,
+	.text h6 {
+		font-size: 19px !important;
+	}
+	div.title h3 {
+		font-size: 23px !important;
+	}
+	.dropdown-menu.show {
+		right: 0;
+		left: unset;
+	}
+	nav.navbar .navbar-collapse ul li a,
+	nav.navbar .navbar-collapse ul .dathang {
+		font-size: 16px!important;
+	}
+	nav.navbar .navbar-collapse ul .dathang {
+        width: 168px;
+        font-size: 14px!important;
+	}
+	nav.navbar {
+		padding: 0 15px;
+		height: 90px;
+	}
+	.section-2-item1, .section-2-item2, .section-2-item3 {
+		height: 400px;
+	}
+	.section-2-item{
+		margin: 10px;
+	}
+	.section-2-item-content{
+		padding: 5px 30px;
+	}
+	.section-3{
+		padding: 0;
+	}
+	.section-3-item-content p{
+		padding-left: 0;
+	}
+	.section-4{
+		padding: 70px 0;
+	}
+	.section-5{
+		padding: 40px;
+	}
+	.section-6{
+		padding: 50px;
+	}
+	.section-7 {
+		padding-bottom: 0;
+		margin-top: 50px;
+	}
+	.section-7 .img {
+		width: 95%;
+		padding-bottom: 101%;
+	}
+	.section-7 .form {
+		margin-left: 0;
+	}
+	.section-7 .form {
+		padding: 33px;
+	}
+	.section-7 .form h6 {
+		font-size: 35px !important;
+	}
+	.section-7 .form .sale .left p {
+		font-size: 24px;
+	}
+	.section-7 .form .sale .right {
+		padding: 5px 34px;
+	}
+	.section-7 .form .sale .right p {
+		font-size: 30px;
+	}
+	.section-7 .form form input[name="name"] {
+		margin-top: 25px;
+	}
+	.section-7 .form form input,
+	.section-7 .form form button {
+		height: 65px;
+	}
+	.section-7 .form form button {
+		margin-top: 35px;
+	}
+	.section-7 .form{
+		width: 120%;
+	}
+	.cauhoi-top .title h2 {
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+	.cauhoi-top .fact .fact-item {
+		padding: 35px;
+		height: 200px;
+	}
+	.contact-page-area {
+		padding-top: 50px;
+	}
+	
+}
+@media only screen and (max-width: 1024px) {
+	body{
+		font-size: 16px;
+	}
+	nav.navbar {
+		padding: 0 10px;
+	}
+	.navbar-light .navbar-brand img {
+		width: 120px;
+	}
+	nav.navbar .navbar-collapse ul li a,
+	nav.navbar .navbar-collapse ul .dathang {
+		font-size: 15px;
+		text-align: center;
+	}
+	nav.navbar .navbar-collapse ul {
+		padding: 0;
+	}
+	.dropdown img {
+		width: 27px;
+		height: 27px;
+	}
+	.dropdown-menu {
+		min-width: -webkit-fit-content;
+		min-width: -moz-fit-content;
+		min-width: fit-content;
+	}
+	.dropdown .dropdown-menu .dropdown-item span {
+		font-size: 15px;
+	}
+	div.title h3 {
+		font-size: 21px !important;
+	}
+	h6,
+	.text h6 {
+		font-size: 17px !important;
+	}
+	.title {
+		margin-top: 40px;
+		font-size: 24px;
+		margin-bottom:20px;
+	}
+	/* Trang chu */
+	
+	.section-1-content{
+		padding:50px 100px;
+		transform:translateY(0);
+		background-color:rgba(255,255,255,0.4)
+	}
+	.section-1-content h2{
+		font-size: 24px;
+	}
+	.section-1-content .btn-1{
+		padding: 10px 30px;
+	}
+	.section-2-item img{
+		max-width: 60px;
+		padding: 20px 0;
+	}
+	.sec-2-img{
+		padding: 0 58px;
+	}
+	.section-2-item1, .section-2-item2, .section-2-item3{
+		height:400px;
+	}
+	.section-3-item-content{
+		font-size: 16px;
+		padding: 20px 20px 0 0;
+	}
+	.section-3-item-about .item-3-title{
+		font-size: 17px;
+	}
+	.section-4 {
+		padding: 50px 0;
+	}
+	.section-4-content{
+		font-size: 16px;
+	}
+	.section4-img{
+		max-width: 120px;
+		transform: translate(50%,-60%);
+	}
+	.section-5-title h4{
+		font-size: 20px;
+		max-width: 300px;
+	}
+	.section-5-content h2 {
+		font-size: 24px;
+	}
+	.section-5-content p{
+		line-height: 36px;
+	}
+	.section-5-video{
+		height: 300px;
+	}
+	.section-6{
+		padding: 0 50px;
+	}
+	.list-ques li{
+		font-size: 18px;
+	}
+	.list-ques li{
+		margin-bottom: 30px;
+	}
+	.section-7{
+		padding: 0;
+	}
+	.section-7 .img {
+		width: 100%;
+		padding-bottom: 99%;
+	}
+	.section-7 .form {
+		width: 125%;
+		margin-left: auto;
+	}
+	
+	.section-7 .form .sale .left p {
+		font-size: 22px;
+	}
+	.section-7 .form .sale .right p {
+		font-size: 28px;
+	}
+	.section-7 .form form input[name="name"] {
+		margin-top: 20px;
+		margin-bottom: 17px;
+	}
+	.section-7 .form form input,
+	.section-7 .form form button {
+		height: 60px;
+	}
+	.section-7 .form {
+		padding: 31px;
+	}
+	.section-8-card{
+		margin: 10px;
+	}
+	.section-8-card-content{
+		padding: 10px;
+	}
+	.section-8-card-content h4{
+		font-size: 18px;
+	}
+	/* Trang chu */
+	footer .left p {
+		font-size: 16px;
+	}
+	footer .right .social a {
+		margin-right: 0px;
+	}
+	.section-gt{
+		padding: 20px 50px;
+	}
+	.section-gt-img1 {
+		margin: 100px 20px 50px;
+	}
+	.section-gt-content{
+		line-height: 32px;
+	}
+	.cauhoi-top {
+		padding: 0 80px;
+	}
+	.cauhoi-top .title h2 {
+		font-size: 26px;
+	}
+	.cauhoi-top .fact,
+	.img-bot,
+	.ask {
+		width: 100%;
+	}
+	.ask {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	.cauhoi-top .fact .fact-item {
+		min-height: 201px;
+		height: 201px;
+	}
+	.cauhoi-top .fact .fact-item-2 {
+		height: 178px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.dropdown.dropdown-mobile {
+		display: block;
+	}
+
+	nav.navbar {
+		padding: 0 15px;
+	}
+	#default {
+		border: unset;
+		font-size: 23px;
+	}
+	#default:focus {
+		border: unset;
+		box-shadow: unset;
+	}
+	.navbar-collapse {
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: -100vw;
+		background: rgba(0, 0, 0, 0.85);
+		z-index: 997;
+		display: block;
+	}
+	.navbar-collapse.show {
+		left: 0;
+		touch-action: none;
+	}
+	.navbar-collapse.in {
+		overflow-y: visible;
+		transition: 0;
+	}
+	#shown {
+		position: absolute;
+		top: 30px;
+		right: 20px;
+	}
+	nav.navbar .navbar-collapse ul {
+		margin: unset !important;
+		padding: 90px 90px;
+		align-items: flex-start;
+	}
+	nav.navbar .navbar-collapse ul li {
+		padding: 10px 0;
+	}
+	nav.navbar .navbar-collapse ul li a {
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	nav.navbar .navbar-collapse ul li a.active {
+		font-size: 20px;
+		font-weight: 500;
+	}
+	nav.navbar .navbar-collapse ul #dathang-2{
+		display: block;
+		font-size: 22px;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+	nav.navbar .navbar-collapse ul #dathang-1{
+		display: none;
+	}
+	nav.navbar .navbar-collapse ul .dathang{
+		background-image: unset;
+		background-color: transparent;
+		padding: 0;
+	}
+	.nav-item.dropdown {
+		display: none;
+	}
+	.dropdown {
+		margin-right: 10px;
+	}
+	.dropdown .dropdown-menu .dropdown-item span {
+		color: #000000;
+	}
+	div.title h3 {
+		font-size: 20px !important;
+	}
+
+	/* Modal  */
+	.modal .modal-dialog .modal-content {
+		width: 65%;
+	}
+	.modal-dialog.section-7 {
+		padding: 0;
+	}
+	.modal-dialog.section-7 .form {
+		width: 100%;
+		border-radius: unset;
+		margin-top: 0;
+	}
+	.modal-dialog.section-7 .modal-title {
+		font-size: 25px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	.modal-dialog.section-7 .modal-header {
+		align-items: center;
+		justify-content: space-evenly;
+		padding: 1rem;
+	}
+	.modal-header .close {
+		margin: 0;
+	}
+	/* Modal */
+	/* Trang chu */
+	.section-2-item3,.section-2-item2,.section-2-item1 {
+		height: 400px;
+	}
+
+	.sec-2-img{
+		padding: 0 50px;
+	}
+	.section-3-item-1,.section-3-item-2 ,.section-3-item-3,.section-3-item-4, .section-3-item-5,.section-3-item-6{
+		margin:10px 30px;
+	}
+	.section-3-item-about{
+		padding: 30px 10px;
+	}
+	.section-3-item-content{
+		padding: 40px 40px 0 0;
+	}
+	.section-4-content{
+		padding: 0 40px;
+	}
+	.section4-img{
+		max-width: 130px;
+		transform: translate(0,-60%);
+		display: none;
+	}
+	.section-5-video{
+		height: 400px;
+	}
+	.section-5-content h2{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.section-6-content{
+		width: 600px;
+	}
+
+
+
+	.section-7 .img {
+		display: none;
+	}
+	.section-7 .form {
+		margin: auto;
+		margin-top: 0;
+		border-radius: 15px;
+	}
+	.section-7 .form{
+		width: 100%;
+	}
+	.section-7{
+	padding: 60px;
+	}
+	footer{
+		margin-top: 20px;
+	}
+	footer .right .social a {
+		width: 15%;
+	}
+	footer .right h6 {
+		padding: 12px 0;
+	}
+	footer .right .app .store img {
+		width: 120px;
+	}
+	footer .right .app .store img:first-child {
+		margin-bottom: 5px;
+	}
+	footer h3{
+		font-size:15px;
+		line-height: 24px;
+		
+	}
+	footer h5{
+		font-size: 15px;
+	}
+	/* Trang chu */
+
+	.section-gt-img1 {
+		margin: 20px 0px 20px;
+	}
+	.section-gt-img2 img{
+		padding:10px 0;
+	}
+	.pd-r{
+		width: 100%;
+	}
+	.cauhoi-top {
+		padding: 0 50px;
+	}
+	.cauhoi-top .fact .fact-item {
+		padding: 20px;
+		min-height: 172px;
+		height: 172px;
+	}
+	.ask {
+		padding: 0 50px;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+	.ask .ask-item,
+	.ask .answer {
+		padding: 20px;
+	}
+	.cauhoi-top .title h2 {
+		font-size: 24px;
+	}
+	.cauhoi-top .fact .fact-item-1 {
+		margin-right: 10px;
+		margin-bottom: 20px;
+	}
+	.cauhoi-top .fact .fact-item-2 {
+		margin-left: 10px;
+	}
+	.sidebar-widgets {
+		margin-top: 40px
+	}
+	.info-blog {
+		flex-direction: column
+	}
+	.list-link {
+		margin-top: 10px;
+		display: flex
+	}
+	.comment-form .name {
+		padding-left: 0;
+		padding-right: 0
+	}
+	.comment-form .email {
+		padding-right: 0;
+		padding-left: 0
+	}
+	.map-style {
+		margin-top: 40px
+	}
+	.contact_content_title {
+		font-size: 2.4rem;
+		text-align: center
+	}
+	.section-gap-top {
+		padding-top: 50px;
+		padding-bottom: 50px
+	}
+	.opening_hours {
+		padding-left: 0;
+		width: 100%
+	}
+	.contact_list,
+	.locations_list,
+	.opening_hours_list {
+		margin-top: 20px
+	}
+	.contact_input {
+		height: 46px
+	}
+	input {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none
+	}
+	#none-product {
+		display: none
+	}.box-blog {
+		margin-bottom: 55px
+	}
+	.box-des-blog {
+		padding-top: 12px
+	}
+	.img-content{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+
+	body{
+		padding-top: 70px;
+	}
+	nav.navbar {
+		height: 80px;
+	}
+	.bottom-item {
+		transform: translateX(-100vw);
+	}
+	.in-view {
+		transform: unset;
+		transition: all 1.5s;
+	}
+	.owl-theme .owl-dots .owl-dot {
+		width: 29px;
+	}
+	.title{
+		font-size: 20px;
+	}
+	/* Trang chu */
+	.section-1-content{
+		padding: 50px 20px;
+		background-color: rgba(255,255,255,0.5);
+	}
+	.section-2-content{
+		width: 370px;
+	}
+	.section-2-item3{
+		height: 400px;
+	}
+	.sec-2-img {
+		padding: 0 26px;
+	}
+	.section-3-item-about{
+		margin: 0 auto;
+	}
+	.section-3-item-content{
+		padding: 0 20px;
+	}
+	.section-4{
+		padding-top: 150px;
+	}
+	.section4-img {
+		transform: translate(-50%,15%);
+		left: 50%;
+		display: block;
+	}
+	.section-4-content{
+		padding: 0 20px;
+	}
+	.section-5-video{
+		width: 100%;
+		height: 300px;
+	}
+	.section-5-content h2{
+		font-size: 20px;
+	}
+	.section-5-content h6{
+		font-size: 16px;
+	}
+	.section-5{
+		padding: 40px 20px;
+	}
+	.section-6-content{
+		width: 350px;
+	}
+	.section-6{
+		padding: 0 20px;
+	}
+	.list-ques li p {
+		line-height: 46px;
+		font-size: 16px;
+	}
+	.icon-list-ques i{
+		font-size: 30px;
+	}
+	.section-7{
+		padding: 20px;
+	}
+	.section-7 .form form input, .section-7 .form form button{
+		font-size: 16px;
+	}
+	.section-7 .form form button{
+		font-size: 18px;
+	}
+	.section-8-content{
+		width: 350px;
+	}
+	.section-8-card-2,.section-8-card-3{
+		display: none;
+	}
+	footer{
+		padding: 0;
+	}
+	.footer-content{
+		padding: 20px;
+	}
+	footer p{
+		text-align: center;
+	}
+	.info{
+		padding-top: 30px;
+	}
+	footer h5{
+		font-size: 14px;
+	}
+	.logo-bottom{
+		display: block;
+		margin: 0 auto;
+	}
+	.social {
+		
+		margin: 0 auto;
+	}
+	/* Trang chu */
+
+	.cauhoi-top .fact .fact-item {
+		padding: 25px;
+	}
+	.about-banner figure img {
+		height: auto;
+		width: 70%
+	}
+	.posts-list h1 {
+		font-size: 24px
+	}
+	.posts-list h2 {
+		font-size: 24px
+	}
+	.posts-list h3 {
+		font-size: 22px
+	}
+	.posts-list h4 {
+		font-size: 21px
+	}
+	.posts-list h5 {
+		font-size: 20px
+	}
+	.posts-list h6 {
+		font-size: 18px
+	}
+	.comment-list h5 {
+		font-size: 18px!important
+	}
+	.comments-area .btn-reply {
+		font-size: 11px;
+		display: none
+	}
+	.section-gap{
+		padding-top: 50px;
+	}
+	.section-gt-img1{
+		display: none;
+	}
+
+	
+}
+@media only screen and (max-width: 420px) {
+	
+	nav.navbar {
+		height: 70px;
+	}
+	nav.navbar .navbar-collapse ul {
+		padding: 50px;
+	}
+	div.title h3 {
+		font-size: 19px !important;
+	}
+	
+	/* Trang chu */
+	nav.navbar .navbar-collapse ul #dathang-2{
+		display: block;
+	}
+	nav.navbar .navbar-collapse ul #dathang-1{
+		display: none;
+    }
+	.section-7 .img {
+		width: 100%;
+		padding-bottom: 65%;
+	}
+	.section-7 .form {
+		width: 100%;
+		padding: 20px;
+	}
+	.section-7 .form .sale .right {
+		padding: 5px 20px;
+	}
+	.section-7 .form .sale .left p {
+		margin-bottom: 5px;
+	}
+	.modal-content #forms .close {
+	top: 10px;
+    right: 20px;
+	}
+	.section-7 .form .sale .right p {
+		font-size: 24px;
+	}
+	.section-7 .form form input {
+		width: 100%;
+		height: 55px;
+	}
+	.section-7 .form form button {
+        width: 200px;
+		margin-top: 20px;
+		height: 55px;
+		font-size: 20px;
+	}
+	footer .right .social a {
+		margin-right: 10px;
+	}
+	/* Trang chu */
+	.section-gt{
+		padding: 10px 20px;
+	}
+	.section-5-title{
+		font-size: 18px;
+	}
+	.cauhoi-top {
+		padding: 0 20px;
+	}
+	.cauhoi-top .title h2 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.cauhoi-top .fact .fact-item {
+		margin: 0 !important;
+		margin-bottom: 15px !important;
+	}
+	.ask,
+	.img-bot {
+		padding: 0 20px;
+		margin-bottom: 20px;
+	}
+	
+	.cauhoi-top .fact .fact-item {
+		margin: 0 !important;
+	}
+	.cauhoi-top .fact .fact-item-1 {
+		margin-bottom: 15px !important;
+	}
+	.cauhoi-top .fact .fact-item p,
+	.ask .answer p,
+	.ask .ask-item p {
+		font-size: 16px;
+	}
+	.blog{
+		padding-top: 50px;
+	}
+	.box-banner-sidebar {
+		width: unset;
+	}
+	.banner-sidebar {
+	width: unset;
+	}
+	.modal .modal-dialog .modal-content{
+		width: 95%;
+	}
+}
+@media only screen and (max-width: 375px) {
+	body {
+		padding-top: 60px;
+	}
+	nav.navbar {
+		height: 60px;
+	}
+	nav.navbar .navbar-collapse ul li a.active,
+	nav.navbar .navbar-collapse ul .dathang {
+		font-size: 18px;
+	}
+	.navbar-light .navbar-brand img {
+		width: 85px;
+	}
+	.modal-content #forms .close {
+		top: 5px;
+		right: 12px;
+		font-size: 30px;
+	}
+	.section-2-content{
+		width: 350px;
+	}
+	.section-3 .title{
+		padding-left:10px ;
+		padding-right: 10px;
+	}
+	.footer-content{
+		padding: 0;
+	}
+	.footer-content p{
+		margin: 0;
+	}footer .left > img {
+		width: 111px;
+	}
+	footer h3{
+		font-size:14px;
+		line-height: 24px;
+	}
+	.section-7 .form .sale .left p {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	
+	.modal .modal-dialog .modal-content {
+		width: 100%;
+	}
+	.modal-content #forms .close {
+		top: 10px;
+		right: 15px;
+		font-size: 25px;
+	}
+	.title{
+		font-size: 18px;
+	}
+	.section-1-content h2 {
+		font-size: 18px;
+	}
+	.section-2-content{
+		width: 280px;
+	}
+	.section-2-item2, .section-2-item1,.section-2-item3{
+		height: 430px;
+	}
+	.section-5-content h2{
+		font-size: 18px;
+	}
+	.section-5-content h6{
+		font-size: 16px;
+	}
+	.section-6-content{
+		width: 280px;
+	}
+	.list-ques li p{
+		line-height: 38px	;
+	}
+	.section-8-card-content h4{
+		font-size: 16px;
+	}
+	.section-8-content{
+		width: 280px;
+	}
+	.section-7 .form {
+		padding: 20px 15px;
+	}
+	.section-7 .form h6 {
+		font-size: 26px !important;
+	}
+	.section-7 .form .sale .left p {
+		font-size: 18px;
+	}
+	.section-7 .form .sale .right {
+		padding: 5px 15px;
+	}
+	.section-7 .form .sale .right p {
+		font-size: 20px;
+	}
+	.section-7 .form form input {
+		height: 50px;
+		padding: 15px;
+	}
+	.section-7 .form form button {
+		width: 60%;
+		height: 50px;
+	}
+	.ask .ask-item h6 {
+		letter-spacing: 0;
+	}
+	.ask .ask-item,
+	.ask .answer {
+		padding: 15px;
+	}
+	.ask .answer p,
+	.ask .ask-item p {
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.ask .ask-item h6 {
+		font-size: 15px;
+	}
+	.cauhoi-top .title h2 {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.contact_input {
+		height: 50px;
+	}
+	.contact_button {
+		width: 80%;
+	}
+	.contact_content_title {
+		font-size: 22px;
+		font-weight: 700;
+	}
+	.contact_info ul li>div:first-of-type {
+		width: 30px;
+	}
+	.banner-sidebar{
+		width: 288px;
+	}
+	.banner-sidebar__content .right span.new-price{
+		font-size: 18px;
+	}
+	.banner-sidebar__content .left span {
+		font-size: 12px;
+	}
+	.banner-sidebar__content .left h6{
+		font-size: 14px!important;
+	}
+	.box-banner-sidebar{
+		width: unset;
+	}
+}

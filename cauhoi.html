@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:type" content="website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta name="robots" content="noodp,noydir">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="google-site-verification" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="Gercoles">
+    <meta property="og:url" content="">
+    <meta name="description" content="Gercoles">
+    <meta property="og:description" content="Gercoles">
+    <meta property="og:title" content="Gercoles">
+    <title>Gercoles</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <div class="container-fluid"> -->
+    <a class="navbar-brand" href="./index.html">
+        <img src="./images/logo.png" alt="" />
+    </a>
+    <div class="d-flex align-items-center">
+        <div class="dropdown dropdown-mobile">
+            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-expanded="false">
+                <img src="./images/vn.png" alt="" />
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                    <a class="dropdown-item" href="#">
+                        <img src="./images/vn.png" alt="" />
+                        <span>Tiếng Việt</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#">
+                        <img src="./images/germany.svg" alt="" />
+                        <span>Tiếng Đức</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <button id="default" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa fa-bars text-dark"></i>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">TRANG CHỦ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./gioithieu.html">GIỚI THIỆU</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="./cauhoi.html">CÂU HỎI THƯỜNG GẶP</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./blog.html">KIẾN THỨC SỨC KHỎE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./lienhe.html">LIÊN HỆ</a>
+            </li>
+            <a href="" type="button" id="dathang-1" class="dathang" data-toggle="modal"
+                data-target="#exampleModal">ĐĂNG KÝ NHẬN KÝ MÃI</a>
+            <li>
+                <a href="" id="dathang-2" data-toggle="modal" data-target="#exampleModal">ĐĂNG KÝ NHẬN KÝ MÃI</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-expanded="false">
+                    <img src="./images/vn.png" alt="" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <img src="./images/vn.png" alt="" />
+                            <span>Tiếng Việt</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <img src="./images/germany.svg" alt="" />
+                            <span>Tiếng Đức</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <button id="shown" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa fa-times text-white"></i>
+        </button>
+    </div>
+    <!-- </div> -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog section-7">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        Đặt hàng chính hãng
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div id="forms" class="form modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h6>#Giảm giá 50%</h6>
+                    <div class="sale row">
+                        <div class="left">
+                            <p>1.180.000 đ</p>
+                            <p>Giá chỉ còn</p>
+                        </div>
+                        <div class="right">
+                            <p>590.000 đ</p>
+                        </div>
+                    </div>
+                    <form action="">
+                        <input type="text" name="name" placeholder="*Tên của bạn" />
+                        <input type="text" name="phone" placeholder="*Số điện thoại" onkeypress="validate(event)" />
+                        <button type="submit">Đặt hàng</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End modal -->
+</nav>
+
+<section class="cauhoi-top">
+    <div class="title">
+       <h2>
+           GERCOLES GOLD <br />
+           GIẢI PHÁP CHO NGƯỜI BỆNH ĐÁI THÁO ĐƯỜNG       </h2>
+    </div>
+    <div class="fact row">
+       <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+          <div class="fact-item fact-item-1">
+             <p>
+                <span>#1</span>Sản phẩm hỗ trợ giảm triệu chứng cao huyết áp Gercoles Gold được nghiên cứu và phát triển bởi công nghệ sản xuất hiện đại. Đây chính là giải pháp tối ưu để kiểm soát chứng cao huyết áp, thừa cholesterol và ngăn ngừa xơ vữa động mạch.
+             </p>
+          </div>
+       </div>
+       <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+          <div class="fact-item fact-item-2">
+             <p>
+                <span>#2</span>Sản phẩm được kết hợp bởi các thành phần thảo dược từ thiên nhiên an toàn cho người dùng, không gây tác dụng phụ. Bên cạnh đó, sản phẩm đã được chứng nhận về an toàn nên người bệnh có thể yên tâm khi dùng.
+
+             </p>
+          </div>
+       </div>
+    </div>
+ </section>
+ <section class="ask">
+    <div id="accordionExample">
+       <div class="One">
+          <div class="ask-item question collapsed hienthi ask-item-1" data-toggle="collapse" data-target="#collapseOne"
+             aria-expanded="true" aria-controls="collapseOne" id="headingOne" style="--transform: rotate(90deg)">
+             <p class="fff">
+                Xin chào, huyết áp của tôi không ổn định khoảng 3 năm rồi. Được biết sản phẩm này có công dụng ổn định huyết áp tốt. Cho tôi hỏi là tôi có thể chỉ sử dụng Gercoles Gold và bỏ các liều thuốc bác sĩ kê toa được không vì tôi không muốn uống quá nhiều?
+
+             </p>
+             <h6 class="white">Trần Như Lan (Gò Vấp, TPHCM)</h6>
+          </div>
+          <div class="answer collapse show" id="collapseOne" class="collapse" aria-labelledby="headingOne"
+             data-parent="#headingOne">
+             <p>
+                Chào chị, theo như thông tin chị cung cấp thì chúng tôi xin được gửi đến chị hướng dẫn sau: Sản phẩm Gercoles Gold không thể thay thế hoàn toàn các loại thuốc điều trị bệnh mà bác sĩ đã kê toa. Do đó, chị không được tự ý lược bỏ đi các loại thuốc mà chưa có sự chỉ định của bác sĩ. Chúc chị sức khỏe nhé!
+             </p>
+          </div>
+       </div>
+       <div class="Two">
+          <div class="ask-item question" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+             aria-controls="collapseTwo" id="headingTwo">
+             <p class="fff">
+                Tôi đã kiểm soát được căn bệnh huyết áp nhờ vào Gercoles Gold. Như vậy, cho tôi hỏi là tôi có nên ngừng dùng sản phẩm này không hay là cứ tiếp tục dùng ạ? 
+             </p>
+             <h6 class="fff">Nguyễn Mỹ Linh (Hải Phòng)</h6>
+          </div>
+          <div class="answer" id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+             data-parent="#headingTwo">
+             <p>
+                Chào chị, huyết áp là một căn bệnh rất khó để chữa dứt điểm và người bệnh không được chủ quan vào sức khỏe hiện tại của mình. Do đó, vì sản phẩm Gercoles Gold được chiết xuất từ các thành phần tự nhiên đảm bảo an toàn nên chị có thể sử dụng sản phẩm hàng ngày để duy trì sự ổn định huyết áp và tốt cho sức khỏe tổng thể.
+             </p>
+          </div>
+       </div>
+       <div class="Three">
+          <div class="ask-item question" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+             aria-controls="collapseThree" id="headingThree">
+             <p class="fff">
+                Gần đây, cơ thể của tôi có xuất hiện những triệu chứng như đổ mồ hôi nhiều, nhức đầu, buồn nôn, đôi lúc chảy cả máu mũi. Tìm hiểu thì tôi mới biết đây là dấu hiệu của chứng cao huyết áp. Có phải như vậy không?
+             </p>
+             <h6 class="fff">(Trần Minh Sơn, Hà Nội)</h6>
+          </div>
+          <div class="answer" id="collapseThree" class="collapse" aria-labelledby="headingThree"
+             data-parent="#headingThree">
+             <p>
+                Chào bác. Như những gì bác liệt kê thì đây chính là những biểu hiện huyết áp có vấn đề rồi chú ạ! Bác hãy sử dụng Gercoles Gold để hỗ trợ giảm cholesterol máu, tăng cường sức bền thành mạch, hỗ trợ giảm nguy cơ xơ vữa động mạch và giảm triệu chứng của tăng huyết áp. Chúc bác có sức khỏe tốt!
+             </p>
+          </div>
+       </div>
+      
+    </div>
+ </section>
+ <footer>
+    <div class="container-fluid footer-bg">
+       <div class=" footer-content">
+          <div class="row">
+             <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                <div class="info left">
+                 <a href="./index.html"> <img src="./images/logo.png" class="logo-bottom"></a> 
+                   <h5>Được phân phối chính thức bởi</h5>
+                   <h3>CÔNG TY TNHH SOJI LABS</h3>
+                   <h5>Trụ sở: Tầng 10, tòa nhà Phước Thành, 199 Điện Biên Phủ, Phường 15,<br> Quận Bình Thạnh,
+                      Thành phố Hồ Chí Minh, Việt Nam
+                   </h5>
+                   <div class="row info-contact">
+                      <i class="fa fa-envelope"></i>
+                      <h6><a href="mailto:shop@soji.asia">shop@soji.asia</a></h6>
+                      <i class="fa fa-phone"></i>
+                      <h6><a href="tel:+02873070789">028 7307 0789</a></h6>
+                   </div>
+                </div>
+             </div>
+             <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="right row justify-content-between mt-3-md">
+                   <div class="col-lg-12 col-md-12 col-12">
+                      <div class="info-socal">
+                         <h3>Kết nối với GERCOLES</h3>
+                         <div class="social row">
+                            <a href="https://www.facebook.com/sojilabs/" target="_blank">
+                            <img src="./images/facebook.svg">
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC2W5tjk6wJAK2K2EUuvMMSQ" target="_blank">
+                            <img src="./images/youtube.svg">
+                            </a>
+                            <a href="https://www.instagram.com/sojilabs_official/" target="_blank">
+                            <img src="./images/instagram.svg">
+                            </a>
+                            <a href="https://twitter.com/SojiLabs" target="_blank">
+                            <img src="./images/twitter.svg">
+                            </a>
+                            <a href="">
+                            <img src="./images/whatsapp.svg" target="_blank">
+                            </a>
+                         </div>
+                         <p style="padding:10px;padding-left:0;font-style:italic">*Thực phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh.</p>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <p><em>Copyright 2020@Soji Labs</em></p>
+       </div>
+    </div>
+ </footer>
+ <script>
+    var aq=document.getElementsByClassName("ask-item question");for(let t=0;t<aq.length;t++)aq[t].onclick=function(){1==Boolean(aq[t].classList.contains("hienthi"))?(aq[t].classList.remove("hienthi"),aq[t].style.setProperty("--transform","rotate(0)")):(aq[t].classList.add("hienthi"),aq[t].style.setProperty("--transform","rotate(90deg)"))};
+ </script>
+
+
+
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap5.js"></script>
+<script src="./js/aos.js"></script>
+<script src="./js/main.js"></script>
+</body>
+
+</html>

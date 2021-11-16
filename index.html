@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:type" content="website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta name="robots" content="noodp,noydir">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="google-site-verification" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="Gercoles">
+    <meta property="og:url" content="">
+    <meta name="description" content="Gercoles">
+    <meta property="og:description" content="Gercoles">
+    <meta property="og:title" content="Gercoles">
+    <title>Gercoles</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="./css/owl.theme.default.css" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <div class="container-fluid"> -->
+        <a class="navbar-brand" href="./index.html">
+            <img src="./images/logo.png" alt="" />
+        </a>
+        <div class="d-flex align-items-center">
+            <div class="dropdown dropdown-mobile">
+                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="./images/vn.png" alt="" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <img src="./images/vn.png" alt="" />
+                            <span>Tiếng Việt</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <img src="./images/germany.svg" alt="" />
+                            <span>Tiếng Đức</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button id="default" class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars text-dark"></i>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="./index.html">TRANG CHỦ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./gioithieu.html">GIỚI THIỆU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./cauhoi.html">CÂU HỎI THƯỜNG GẶP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./blog.html">KIẾN THỨC SỨC KHỎE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./lienhe.html">LIÊN HỆ</a>
+                </li>
+                <a href="" type="button" id="dathang-1" class="dathang" data-toggle="modal"
+                    data-target="#exampleModal">ĐĂNG KÝ NHẬN KÝ MÃI</a>
+                <li>
+                    <a href="" id="dathang-2" data-toggle="modal" data-target="#exampleModal">ĐĂNG KÝ NHẬN KÝ MÃI</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        <img src="./images/vn.png" alt="" />
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <img src="./images/vn.png" alt="" />
+                                <span>Tiếng Việt</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <img src="./images/germany.svg" alt="" />
+                                <span>Tiếng Đức</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <button id="shown" class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-times text-white"></i>
+            </button>
+        </div>
+        <!-- </div> -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog section-7">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel"> 
+							Đặt hàng chính hãng
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div id="forms" class="form modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h6>#Giảm giá 50%</h6>
+						<div class="sale row">
+							<div class="left">
+								<p>1.180.000 đ</p>
+								<p>Giá chỉ còn</p>
+							</div>
+							<div class="right">
+								<p>590.000 đ</p>
+							</div>
+						</div>
+						<form action="">
+							<input type="text" name="name" placeholder="*Tên của bạn" />
+							<input type="text" name="phone" placeholder="*Số điện thoại" onkeypress="validate(event)" />
+							<button type="submit">Đặt hàng</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+        <!-- End modal -->
+    </nav>
+
+    <section id="section-1" class="section-1">
+        <div class="banner1">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 section-1-content">         
+                            <h2>#MẤT KIỂM SOÁT ĐƯỜNG HUYẾT #CHOLESTEROL VÀ LIPIT MÁU CAO</h2>
+                            <p>Đường huyết không ổn định lúc tăng cao, lúc hạ thấp chính là tác nhân làm ảnh hưởng sức
+                                khỏe và chất lượng cuộc sống. Do đó, việc kiểm soát tốt đường huyết, lượng cholesterol
+                                và lipit trong máu sẽ giúp chúng ta sống khỏe mạnh, ngăn ngừa những biến chứng nguy hiểm
+                                từ căn bệnh đái tháo đường.
+                            </p>
+                          <a href="./cauhoi.html" target="_blank"><button class="btn btn-1">XEM THÊM</button></a> 
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="section-2" class="section-2">
+        <div class="banner2">
+            <div class="container">
+                    <div class="title title-2">TẠI SAO NÊN DÙNG GERCOLES GOLD</div>
+                    <div class="section-2-content">Gercoles Gold chính là giải pháp tối ưu được kết hợp từ những nguyên
+                        liệu từ thiên nhiên và công nghệ sản xuất hiện đại. Sản phẩm đã được chứng nhận về chất lượng an
+                        toàn cho sức khỏe người dùng.
+                    </div>             
+
+            </div>
+           <div class="container">
+               <div class="row">
+                <div class="review owl-carousel owl-theme">
+                    <div class="item item">
+                       
+                            <div class="section-2-item section-2-item1">
+                                <div class="section-2-item-content">
+                                    <img class="section-2-item-img" src="./images/hieu-qua.png" alt="">
+                                    <h6>Hiệu quả, an toàn,<br>
+                                        không gây tác dụng phụ</h6>
+                                    <p>Được chiết xuất từ thành phần tự nhiên và công nghệ hiện đại và đã được chứng nhận
+                                        không gây tác dụng phụ, an toàn cho sức khỏe của người dùng.</p>
+                                </div>
+                            </div>
+                  
+                           
+                    
+                       
+                    </div>
+                    <div class="item item">
+                      
+                            <div class="section-2-item section-2-item2">
+                                <div class="section-2-item-content">
+                                    <img class="section-2-item-img" src="./images/phuc-hoi-nhanh-chong.png" alt="">
+                                    <h6>Khả năng hồi phục <br>
+                                        nhanh chóng</h6>
+                                    <p>Sản phẩm hỗ trợ giảm cholesterol máu, giúp tăng cường sức bền thành mạch, hỗ trợ giảm
+                                        nguy cơ xơ vữa động mạch và giảm triệu chứng của tăng huyết áp trong thời gian ngắn.
+                                    </p>
+                                </div>
+                            </div>
+                     
+                            
+                      
+                       
+                    </div>
+                    <div class="item item">
+                       
+                            <div class="section-2-item section-2-item3">
+                                <div class="section-2-item-content">
+                                    <img class="section-2-item-img" src="./images/thanh-phan-thien-nhien.png" alt="">
+                                    <h6>Thành phần thiên nhiên <br>
+                                        an toàn
+                                    </h6>
+                                    <p>Sản phẩm có chứa các thành phần thảo dược rất tốt cho cơ thể, gồm Cao nần nghệ; Cao
+                                        Giảo cổ lam; Cao lá sen; Cao bụp giấm; Bột tỏi; Chiết xuất thông đỏ và thành phần an
+                                        toàn khác.</p>
+                                </div>
+                            </div>
+                      
+                           
+                        
+                     
+                    </div>
+               
+           
+                </div>
+               </div>
+           </div>
+            <img src="./images/gercoles-gold-homepage.jpg" alt="" class="sec-2-img">
+        </div>
+    </section>
+
+   
+    <div class="section-3-bg-item">
+    <div id="section-3" class="section-3">
+        <div class="title">
+            THÀNH PHẦN GERCOLES GOLD GỒM CÓ NHỮNG GÌ?
+        </div>
+            <div class="row section-3-content">
+                <div class="col-lg-6 col-md-12 col-sm-12 ">
+                    <div class="section-3-item section-3-item-1">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-12 section-3-item-about">
+                                <img src="./images/tp1.png" alt="">
+                                <div class="item-3-title">Cao nần nghệ</div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-12 section-3-item-content">
+                                <p>Có chứa Saponin, đây là thành phần có công dụng giảm cholesterol, thúc đẩy quá trình
+                                    loại bỏ mỡ thừa có trong máu, hỗ trợ điều hòa nhịp tim và ổn định huyết áp, đồng
+                                    thời hỗ trợ tăng cường sức bền của thành mạch máu.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="section-3-item section-3-item-2">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-12 section-3-item-about">
+                                <img src="./images/tp2.png" alt="">
+                                <div class="item-3-title">Cao Giảo cổ lam</div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-12 section-3-item-content">
+                                <p>Chất saponin trong Giảo Cổ Lam có khả năng làm giảm độ nhớt của máu, làm trơn láng
+                                    thành mạch, bào mòn các mảng xơ vữa bám trong lòng mạch, giúp máu lưu thông dễ dàng
+                                    hơn, dẫn máu lên não, cơ thể khỏe khoắn hơn.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="section-3-item section-3-item-3">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-12 section-3-item-about">
+                                <img src="./images/tp3.png" alt="">
+                                <div class="item-3-title">Cao lá sen</div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-12 section-3-item-content">
+                                <p>Hoạt chất trong lá sen giúp hạn chế sự hấp thu tinh bột và chất béo tại ruột non bằng
+                                    cách ức chế các enzyme tiêu hóa, kích thích chuyển hóa chất béo thành năng lượng,
+                                    giảm tình trạng rối loạn cholesterol có trong máu.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="section-3-item section-3-item-4">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-12 section-3-item-about">
+                                <img src="./images/tp4.png" alt="">
+                                <div class="item-3-title">Cao bụp giấm</div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-12 section-3-item-content">
+                                <p>Chứa các hoạt chất như silymarin và cynarin đem lại nhiều lợi ích cho gan. Ngoài ra
+                                    khi sử dụng sản phẩm bạn sẽ cảm thấy cơ thể được thanh lọc, loại bỏ độc tố ra ngoài,
+                                    da dẻ hồng hào, khỏe khoắn.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="section-3-item section-3-item-5">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-12 section-3-item-about">
+                                <img src="./images/tp5.png" alt="">
+                                <div class="item-3-title">Chiết xuất thông đỏ</div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-12 section-3-item-content">
+                                <p>Hỗ trợ làm giảm tổng hợp acid béo, giảm sự biệt hóa tế bào mỡ. Từ đó, các mảng xơ vữa
+                                    bám trong lòng mạch được bào mòn dần, giúp thông huyết mạch, giảm cholesterol máu,
+                                    tăng cường sức bền thành mạch.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="section-3-item section-3-item-6">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-12 section-3-item-about">
+                                <img src="./images/tp6.png" alt="">
+                                <div class="item-3-title">Bột tỏi</div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-12 section-3-item-content">
+                                <p>Bột tỏi là thành phần quen thuộc để ổn định huyết áp, giảm lượng cholesterol gây hại
+                                    có trong cơ thể, tăng lượng cholesterol tốt, ngăn ngừa khả năng xơ vữa động mạch,
+                                    ngừa biến chứng nguy hiểm từ việc tắc nghẽn mạch máu.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+ 
+
+
+    <div id="section-4" class="title">ĐÁNH GIÁ TỪ CHUYÊN VIÊN TƯ VẤN VỀ GERCOLES GOLD</div>
+    <div class="bg-section4">
+        <div class="section-4">
+            <img src="./images/expert.png" alt="" class="section4-img">
+            <div class="section-4-content">
+                <p>Vì cuộc sống ngày càng hiện đại nên con người thường tận dụng máy móc chứ ít khi vận động, đi cùng
+                    với đó là lối sống thiếu lành mạnh, ăn uống không đảm bảo. Điều này làm cho rất nhiều bệnh nhân của
+                    tôi phải khổ sở vì tình trạng cholesterol và các chất khác tích tụ trong mạch máu làm cho mạch máu
+                    bị thu hẹp lại gây nên những căn bệnh nguy hiểm nếu không kịp thời phát hiện và chữa trị sẽ dẫn đến
+                    những nguy hiểm cho sức khỏe.
+                </p>
+                <p>Hơn 25 năm trong ngành, tôi đã giúp đỡ cho nhiều người thoát khỏi căn bệnh quái ác này bởi một sản
+                    phẩm mang tên là Gercoles Gold. Mọi người có thể yên tâm khi sử dụng bởi sản phẩm được chiết xuất từ
+                    thành phần thiên nhiên và đã được chứng nhận an toàn, không gây ra bất kỳ tác dụng phụ nào. Tôi đã
+                    giới thiệu sản phẩm cho rất nhiều người và họ đều đã kiểm soát được căn bệnh này và có một cơ thể
+                    tràn đầy sinh lực hơn. <br>
+                    Nếu bạn đang hoang mang vì chứng tăng huyết áp, xơ vữa động mạch thì Gercoles Gold chính là giải
+                    pháp an toàn nhất dành cho bạn ngay lúc này!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="section-5" class="section-5 banner-section5">
+        <div class="row">
+            <div class="col-xl-5 col-lg-5 col-md-12 col-12 section-5-left">
+                <div class="section-5-title"><h4>#Cảm Nhận Từ Khách Hàng
+                </h4></div>
+                <div class="section-5-clip">
+                    <iframe class="section-5-video"  src="https://www.youtube.com/embed/KTji1hOICEI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-7 col-md-12 col-12 section-5-right">  
+                    <div class="section-5-content">
+                        <h2>Cách Kiểm Soát Bệnh Đái Tháo Đường Thành Công</h2>
+                        <h6>Chia sẻ của bệnh nhân Nguyễn Minh Kha - TPHCM</h6>
+                        <p>Tôi đã sống cùng căn bệnh tăng huyết áp tận 8 năm, cuộc sống của tôi bị đảo lộn và khó khăn hơn bởi bệnh tình. Nhưng từ khi biết đến và sử dụng Gercoles Gold, tôi mới thật sự kiểm soát được lượng đường huyết và ăn ngon, ngủ sâu hơn. Tôi là minh chứng cho việc nếu tìm đúng sản phẩm và kiên trì sử dụng, bạn sẽ có một sức khỏe tốt và cuộc sống mỹ mãn hơn. <br>
+                            Những ai đang hoang mang vì không biết sử dụng sản phẩm nào để điều hòa huyết áp thì đây chính là giải pháp an toàn nhất dành cho bạn đấy!
+                            </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section-6" id="section-6">
+        <div class="title">CÂU HỎI THƯỜNG GẶP VỀ GERCOLES GOLD</div>
+        <div class="section-6-content">
+            <p>Các câu hỏi liên quan đến hướng dẫn sử dụng, đối tượng sử dụng, có tác dụng phụ khi dùng hay không?, dùng bao lâu thì hết bệnh, nếu quên dùng thì như thế nào.</p>
+        </div>
+       
+            <ul class="list-ques aos-init aos-animate" data-aos="fade-right" data-aos-duration="1500">
+               <li data-ques="box-1">
+                   <span class="sort sort1"><p>01</p></span>
+                  <p>Hướng dẫn sử dụng sản phẩm</p>
+                  <div class="icon-list-ques"><i class="fa fa-angle-down"></i></div>
+               </li>
+               <div class="text-ques" id="box-1" style="display: block;" data-status="block">
+                <p>Sử dụng đúng cách, đúng liều lượng, sản phẩm sẽ phát huy công dụng tốt hơn và dễ dàng kiểm soát tình trạng bệnh hơn. <br>
+                    Nên uống Gercoles Gold mỗi ngày 2 lần, mỗi lần 2 viên, sau bữa ăn. Lưu ý không được tự ý uống thêm hoặc giảm liều lượng. Uống duy trì, đủ liệu trình để đạt hiệu quả tối ưu.
+                 </p>
+               </div>
+               <li data-ques="box-2">
+                <span class="sort sort2"><p>02</p></span>
+                  <p>Sản phẩm dùng cho đối tượng nào?</p>
+                  <div class="icon-list-ques"><i class="fa fa-angle-down"></i></div>
+               </li>
+               <div class="text-ques" id="box-2" style="display: none;" data-status="none">
+                <p>Đối tượng sử dụng sản phẩm Gercoles Gold là người có mỡ máu cao, xơ vữa động mạch, cao huyết áp hoặc những ai có nhu cầu muốn có một sức khỏe tốt và ngừa biến chứng tiểu đường.
+                 </p>
+               </div>
+               <li data-ques="box-3">
+                <span class="sort sort3"><p>03</p></span>
+                  <p>Sản phẩm có tác dụng phụ nào hay không?</p>
+                  <div class="icon-list-ques"><i class="fa fa-angle-down"></i></div>
+               </li>
+               <div class="text-ques" id="box-3" style="display: none;" data-status="none">
+                  <p>Gercoles Gold là thực phẩm bảo vệ sức khỏe có thành phần từ thảo dược thiên nhiên và được chứng nhận an toàn nên người dùng có thể yên tâm, không có tác dụng phụ nào xảy ra.
+                  </p>
+               </div>
+               <li data-ques="box-4">
+                <span class="sort sort4"><p>04</p></span>
+                  <p>Sử dụng Gercoles Gold bao lâu thì hết bệnh?</p>
+                  <div class="icon-list-ques"><i class="fa fa-angle-down"></i></div>
+               </li>
+               <div class="text-ques" id="box-4" style="display: none;" data-status="none">
+                <p>Tùy theo tình trạng sức khỏe của mỗi người mà sản phẩm sẽ phát huy công dụng khác nhau. <br>
+                    Tốt nhất là hãy dùng đúng theo chỉ định để kiểm soát được căn bệnh nhanh nhất có thể.
+                 </p>
+               </div>
+               <li data-ques="box-5">
+                <span class="sort sort5"><p>05</p></span>
+                <p>Cách xử lý khi quên liều dùng sản phẩm</p>
+                <div class="icon-list-ques"><i class="fa fa-angle-down"></i></div>
+             </li>
+             <div class="text-ques" id="box-5" style="display: none;" data-status="none">
+              <p>Khi quên liều uống trước đó, bạn chỉ cần uống tiếp tục đúng liều kế tiếp, tuyệt đối không được thêm hay bớt để tránh ảnh hưởng sức khỏe.
+               </p>
+             </div>
+            </ul>
+        
+    </section>
+
+
+	<section id="section-7" class="section-7 row">
+		<div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-none col-12">
+			<div class="img" data-aos="zoom-in-down" data-aos-duration="1500">
+				<img src="./images/product.jpg" alt="" />
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-12 col-12">
+			<div id="forms" class="form">
+				<h6>#Giảm giá 50%</h6>
+				<div class="sale row">
+					<div class="left">
+						<p>1.580.000 đ</p>  
+						<p>Giá chỉ còn</p>
+					</div>
+					<div class="right">
+						<p>790.000 đ</p>
+					</div>
+				</div>
+				<form action="">
+					<input type="text" name="name" placeholder="*Tên của bạn" />
+					<input type="text" name="phone" placeholder="*Số điện thoại" onkeypress="validate(event)" />
+					<button type="submit">Đặt hàng</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+    <section id="section-8" class="section8">
+        <div class="section-8-banner">
+            <div class="title">KIẾN THỨC CHĂM SÓC SỨC KHỎE</div>
+            <div class="section-8-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus vehicula elit vel egestas.</div>
+        </div>
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="section-8-card section-8-card-1">
+                <div class="section-8-img">
+                    <img src="./images/card.png" alt="" class="w-100">
+                </div>
+                <div class="section-8-card-content">
+                    <h4>Cutting-edge products launched through Logitech-Excel</h4>
+                    <p>The Managing Director & Cluster Head India & South-West Asia at Logitech Sumanta Datta.</p>
+                    <a href="#"><h6>Xem thêm</h6></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="section-8-card section-8-card-2">
+                <div class="section-8-img">
+                    <img src="./images/card.png" alt="" class="w-100">
+                </div>
+                <div class="section-8-card-content">
+                    <h4>Cutting-edge products launched through Logitech-Excel</h4>
+                    <p>The Managing Director & Cluster Head India & South-West Asia at Logitech Sumanta Datta.</p>
+                    <a href="#"><h6>Xem thêm</h6></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="section-8-card section-8-card-3">
+                <div class="section-8-img">
+                    <img src="./images/card.png" alt="" class="w-100">
+                </div>
+                <div class="section-8-card-content">
+                    <h4>Cutting-edge products launched through Logitech-Excel</h4>
+                    <p>The Managing Director & Cluster Head India & South-West Asia at Logitech Sumanta Datta.</p>
+                    <a href="#"><h6>Xem thêm</h6></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid footer-bg">
+           <div class=" footer-content">
+              <div class="row">
+                 <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="info left">
+                     <a href="./index.html"> <img src="./images/logo.png" class="logo-bottom"></a> 
+                       <h5>Được phân phối chính thức bởi</h5>
+                       <h3>CÔNG TY TNHH SOJI LABS</h3>
+                       <h5>Trụ sở: Tầng 10, tòa nhà Phước Thành, 199 Điện Biên Phủ, Phường 15,<br> Quận Bình Thạnh,
+                          Thành phố Hồ Chí Minh, Việt Nam
+                       </h5>
+                       <div class="row info-contact">
+                          <i class="fa fa-envelope"></i>
+                          <h6><a href="mailto:shop@soji.asia">shop@soji.asia</a></h6>
+                          <i class="fa fa-phone"></i>
+                          <h6><a href="tel:+02873070789">028 7307 0789</a></h6>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="right row justify-content-between mt-3-md">
+                       <div class="col-lg-12 col-md-12 col-12">
+                          <div class="info-socal">
+                             <h3>Kết nối với GERCOLES</h3>
+                             <div class="social row">
+                                <a href="https://www.facebook.com/sojilabs/" target="_blank">
+                                <img src="./images/facebook.svg">
+                                </a>
+                                <a href="https://www.youtube.com/channel/UC2W5tjk6wJAK2K2EUuvMMSQ" target="_blank">
+                                <img src="./images/youtube.svg">
+                                </a>
+                                <a href="https://www.instagram.com/sojilabs_official/" target="_blank">
+                                <img src="./images/instagram.svg">
+                                </a>
+                                <a href="https://twitter.com/SojiLabs" target="_blank">
+                                <img src="./images/twitter.svg">
+                                </a>
+                                <a href="">
+                                <img src="./images/whatsapp.svg" target="_blank">
+                                </a>
+                             </div>
+                             <p style="padding:10px;padding-left:0;font-style:italic">*Thực phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh.</p>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <p><em>Copyright 2020@Soji Labs</em></p>
+           </div>
+        </div>
+     </footer>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap5.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+		new AOS.init();
+        $(document).ready(function () {
+		$(".review").owlCarousel({
+			dots: true,
+			loop: false,
+			responsive: {
+				0: { items: 1 },
+                420: { items: 1 },
+                768: { items: 2 },
+				1000: { items: 2 },
+                1280: { items: 2 },
+                1440: { items: 3 },
+				1680: { items: 3 },
+				1920: { items: 3 },
+			},
+		});
+	});
+		if ($(window).width() < 576) {
+			$(".process-item").addClass("owl-carousel owl-theme");
+			$(document).ready(function () {
+				$(".process-item").owlCarousel({
+					loop: false, autoplay: true, autoplayTimeout: 4000, dots: false, nav: true, smartSpeed: 1500, autoplayHoverPause: true,
+					responsive: { 0: { items: 1 }, 421: { items: 1 }, },
+				});
+			});
+		};
+    </script>
+        <script src="./js/main.js"></script>
+</body>
+
+</html>
